@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d6d6d6;
+    font-family: "Roboto", sans-serif;;
+}
+
+/* phan le trai */
+.information {
+    width: 412px;
+    margin: 20px 0 0 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float: left;
+}
+/* ket thuc le trai*/
+/*bat dau hinh anh*/
+.information_img {
+    width: 100%;
+    height: 276px;
+}
+
+.information_img img {
+    width: 100%;
+    height: 100%;
+}
+/*ket thuc hinh anh*/
+/* bat dau phan information contact*/
+.information_contact {
+    margin-left: 16px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    margin-right: 20px;
+    border-bottom: 0.7px solid #ccc ;
+}
+
+.information_contact-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.information_contact-number {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.information_contact-number i {
+    color: #3d9789;
+}
+
+.information_contact-number span {
+    margin-left: 15px;
+}
+/*ket thuc phan information contact*/
+/* bat dau phan information skill */
+
+.information_skill {
+    margin: 30px 20px 30px 16px ;
+    padding-bottom: 16px;
+    border-bottom: 0.7px solid #ccc ;
+}
+
+.information_skill-title {
+    margin-bottom: 20px;
+}
+
+.information_skill-title i {
+    color: #3d9789;
+    font-size: 22px;
+}
+
+.information_skill-title span {
+    color: #757575;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.information_skill-name {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.information_skill-point {
+    width: 100%;
+    height: 20px;
+    background-color: #c3c3c3;
+    margin-bottom: 26px;
+    border-radius: 20px;
+}
+.information_skill-point-one {
+    width: 25%;
+    height: 20px;
+    background-color: #3d9789;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+/*ket thuc phan information skill*/
+/*bat dau language*/
+
+.language {
+    margin: 30px 20px 30px 16px ;
+}
+
+.language_top {
+    margin-bottom: 20px;
+}
+
+.language_top i {
+    color: #3d9789;
+    font-size: 22px;
+}
+.language_top span {
+    color: #757575;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.language_main {
+    padding-bottom: 50px;
+}
+
+.language_main-english {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.language_main-point {
+    width: 100%;
+    height: 32px;
+    background-color: #c3c3c3;
+    margin-bottom: 26px;
+    border-radius: 20px;
+}
+
+.language_main-point-two {
+    width: 100%;
+    height: 32px;
+    background-color: #3d9789;
+    border-radius: 20px;
+}
+/* ket thuc language */
+/* bat dau jop */
+
+.job {
+    width: 960px;
+    float: right;
+    margin: 20px;
+}
+
+.experience {
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+    margin-bottom: 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.education{
+    width: 100%;
+    height: 608px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.experience_work {
+    padding: 48px 46px 30px 38px;
+}
+
+.experience_work-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.experience_work-title i {
+     color: #3d9789;
+}
+
+.experience_work-title span {
+    color: #757575;
+    margin-left: 15px;
+}
+
+.experience_work-frontend {
+    padding-bottom: 40px;
+    border-bottom: 0.7px solid #ccc ;
+} 
+
+.experience_work-frontend-three {
+    border: none;
+}
+
+.experience_work-frontend-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.experience_work-frontend-date {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.experience_work-frontend-date i {
+    color: #3d9789;
+}
+
+.experience_work-frontend-date .one {
+    margin-left: 10px;
+    color: #3d9789;
+}
+
+.experience_work-frontend-date .two {
+    padding: 8px 10px;
+    background-color: #3d9789;
+    color: #fff;
+    border-radius: 15px;
+}
+.experience_work-frontend-date .three {
+    color: #3d9789;
+}
+
+.experience_work-frontend-text {
+    line-height: 28px;
+}
+
+.education_main {
+    padding: 48px 46px 30px 38px;
+  
+}
+
+.education_main-web {
+    padding-bottom: 44px;
+    border-bottom: 0.8px solid #ccc;
+}
+
+.education_main-web-one {
+    border: none;
+}
+
+.education_main-top {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.education_main-top i {
+    color: #3d9789;
+}
+
+.education_main-top span {
+    color: #757575;
+    margin-left: 15px;
+}
+
+
+.education_main-web-name {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.education_main-web-time {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.education_main-web-time i {
+    color: #3d9789;
+}
+.education_main-web-time span {
+    margin-left: 10px;
+    color: #3d9789;
+}
+/*ket thuc job */
+/*bat dau footer*/
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #3d9789;
+    float: left;
+}
+
+.footer_top {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_main ,
+.footer_link  {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer_link a {
+    color: #fff;
+}
