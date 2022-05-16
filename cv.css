@@ -1,0 +1,41 @@
+.information {
+    width: 400px;
+    margin: 20px;
+    text-align: left;
+    background-color: rgb(115, 230, 230);
+    float: left;
+}
+.header{
+    height: 190px;
+}
+.header img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 18px;
+    display: block;
+    margin-left: 130px;
+}
+.header .name{
+    color: rgb(246, 129, 12);
+    margin-top: -20px;
+    text-align: center;
+}
+.header .job {
+    color: black;
+    margin-top: -20px;
+    text-align: center;
+}
+.information_contact {
+    text-align: left;
+    margin-bottom: 15px;
+    
+}
+.information_contact-1 {
+    font-size: 18px;
+    margin-bottom:17px;
+}
+.information_contact-2 {
+    font-size: 15px;
+}
+
